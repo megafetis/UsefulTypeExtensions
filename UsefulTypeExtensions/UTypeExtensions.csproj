@@ -3,15 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 
-    <AssemblyName>UsefulTypeExtensions</AssemblyName>
+    <AssemblyName>UTypeExtensions</AssemblyName>
     <Copyright>Copyright Evgeniy Fetisov</Copyright>
     <PackageLicenseUrl>https://github.com/megafetis/UsefulTypeExtensions/blob/master/LICENSE.txt</PackageLicenseUrl>
-    <PackageId>UsefulTypeExtensions</PackageId>
-    <Version>1.0.0.1</Version>
+    <PackageId>UTypeExtensions</PackageId>
+    <Version>1.0.0.2</Version>
     <RepositoryUrl>git://github.com/megafetis/UsefulTypeExtensions</RepositoryUrl>
     <PackageProjectUrl>https://github.com/megafetis/UsefulTypeExtensions</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>Type, Extension,Extensions, Search types, Assembly, Reflection,Compare,Interfaces, Equals,Generic types,InheritsOrImplements, Inherits Or Implements</PackageTags>
+    <PackageTags>Type Extensions, TypeExtensions, Type, Extension,Extensions, Search types, Assembly, Reflection,Compare,Interfaces, Equals,Generic types,InheritsOrImplements, Inherits Or Implements</PackageTags>
     <Title>Useful Type Extensions</Title>
     <Description>Userful Type extensions for checks</Description>
 

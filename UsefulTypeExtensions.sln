@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsefulTypeExtensions", "UsefulTypeExtensions\UsefulTypeExtensions.csproj", "{D60D01F9-D87E-4A6D-9982-BA4DE6A641C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTypeExtensions", "UsefulTypeExtensions\UTypeExtensions.csproj", "{D60D01F9-D87E-4A6D-9982-BA4DE6A641C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTest", "NUnitTest\NUnitTest.csproj", "{E9F9974A-AC56-46AB-AB6D-F418CE34FF46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTest", "NUnitTest\NUnitTest.csproj", "{E9F9974A-AC56-46AB-AB6D-F418CE34FF46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedClasses", "SharedClasses\SharedClasses.csproj", "{58C63221-F6C6-4403-9DE2-40FEFB3247B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedClasses", "SharedClasses\SharedClasses.csproj", "{58C63221-F6C6-4403-9DE2-40FEFB3247B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{C4F6B964-2734-4D27-BF36-1C7DB8124F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{C4F6B964-2734-4D27-BF36-1C7DB8124F4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

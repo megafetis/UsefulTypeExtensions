@@ -1,7 +1,7 @@
 using System;
 using NUnit.Framework;
 using SharedClasses;
-using UsefulTypeExtensions;
+using UTypeExtensions;
 
 namespace NUnitTest
 {

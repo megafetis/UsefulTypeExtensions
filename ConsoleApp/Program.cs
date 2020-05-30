@@ -1,6 +1,6 @@
 ﻿using System;
 using SharedClasses;
-using UsefulTypeExtensions;
+using UTypeExtensions;
 
 namespace ConsoleApp
 {
