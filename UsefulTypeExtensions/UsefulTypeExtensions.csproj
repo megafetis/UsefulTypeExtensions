@@ -11,12 +11,21 @@
     <RepositoryUrl>git://github.com/megafetis/UsefulTypeExtensions</RepositoryUrl>
     <PackageProjectUrl>https://github.com/megafetis/UsefulTypeExtensions</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>Type, Extension, Search types, Assembly, Reflection</PackageTags>
+    <PackageTags>Type, Extension,Extensions, Search types, Assembly, Reflection,Compare,Interfaces, Equals,Generic types,InheritsOrImplements, Inherits Or Implements</PackageTags>
     <Title>ConveyR</Title>
     <Description>Library implements  chain responsability pattern or saga pattern. It improves code reuse in many cases</Description>
-    <PackageIcon>logo.png</PackageIcon>
+
     <Authors>Evgeniy Fetisov</Authors>
 
+    <PackageIcon>logo.png</PackageIcon>
+
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

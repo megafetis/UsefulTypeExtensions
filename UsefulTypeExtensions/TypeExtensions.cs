@@ -17,18 +17,18 @@ namespace UsefulTypeExtensions
         {
             parent = ResolveGenericTypeDefinition(parent);
             
-            var currentChild = child.IsGenericType
+            var currentChild = (child.IsGenericType && !child.IsConstructedGenericType) || (child.IsConstructedGenericType && parent.IsGenericType && !parent.IsConstructedGenericType)
                 ? child.GetGenericTypeDefinition()
                 : child;
 
-            while (currentChild != typeof(object))
+            while (currentChild != null)
             {
                 if (parent == currentChild || HasAnyInterfaces(parent, currentChild))
                     return true;
 
                 currentChild = currentChild.BaseType != null && currentChild.BaseType.IsGenericType && (!parent.IsConstructedGenericType)
                     ? currentChild.BaseType.GetGenericTypeDefinition()
-                    : currentChild.BaseType;
+                    : (parent.IsInterface ? currentChild.GetInterfaces().FirstOrDefault(i=>i.InheritsOrImplements(parent)) : currentChild.BaseType);
 
                 if (currentChild == null)
                     return false;

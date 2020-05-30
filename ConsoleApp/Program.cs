@@ -9,7 +9,7 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
 
-            var siInherit = typeof(SomeEntity1).InheritsOrImplements(typeof(IEntity<string>));
+            var siInherit = typeof(BaseEntity<>).InheritsOrImplements(typeof(object));
 
             Console.WriteLine("Hello World!");
         }
