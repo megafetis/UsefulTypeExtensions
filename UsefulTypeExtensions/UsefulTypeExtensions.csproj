@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <AssemblyName>UsefulTypeExtensions</AssemblyName>
+    <Copyright>Copyright Evgeniy Fetisov</Copyright>
+    <PackageLicenseUrl>https://github.com/megafetis/UsefulTypeExtensions/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageId>UsefulTypeExtensions</PackageId>
+    <Version>1.0.0</Version>
+    <RepositoryUrl>git://github.com/megafetis/UsefulTypeExtensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/megafetis/UsefulTypeExtensions</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Type, Extension, Search types, Assembly, Reflection</PackageTags>
+    <Title>ConveyR</Title>
+    <Description>Library implements  chain responsability pattern or saga pattern. It improves code reuse in many cases</Description>
+    <PackageIcon>logo.png</PackageIcon>
+    <Authors>Evgeniy Fetisov</Authors>
+
+  </PropertyGroup>
+
+</Project>
