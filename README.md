@@ -1,13 +1,13 @@
 # UsefulTypeExtensions
 
-[![NuGet](https://img.shields.io/nuget/dt/UsefulTypeExtensions.svg)](https://www.nuget.org/packages/UsefulTypeExtensions/) 
-[![NuGet](https://img.shields.io/nuget/vpre/UsefulTypeExtensions.svg)](https://www.nuget.org/packages/UsefulTypeExtensions/)
+[![NuGet](https://img.shields.io/nuget/dt/UTypeExtensions.svg)](https://www.nuget.org/packages/UTypeExtensions/) 
+[![NuGet](https://img.shields.io/nuget/vpre/UTypeExtensions.svg)](https://www.nuget.org/packages/UTypeExtensions/)
 
 Collection of useful type extensions
 
 ## Installing UsefulTypeExtensions
 
-You should install [UsefulTypeExtensions with NuGet](https://www.nuget.org/packages/UsefulTypeExtensions):
+You should install [UsefulTypeExtensions with NuGet](https://www.nuget.org/packages/UTypeExtensions):
 
     Install-Package UsefulTypeExtensions
     
