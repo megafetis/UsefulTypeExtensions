@@ -12,7 +12,7 @@
     <PackageProjectUrl>https://github.com/megafetis/UsefulTypeExtensions</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Type, Extension,Extensions, Search types, Assembly, Reflection,Compare,Interfaces, Equals,Generic types,InheritsOrImplements, Inherits Or Implements</PackageTags>
-    <Title>ConveyR</Title>
+    <Title>Useful Type Extensions</Title>
     <Description>Userful Type extensions for checks</Description>
 
     <Authors>Evgeniy Fetisov</Authors>
