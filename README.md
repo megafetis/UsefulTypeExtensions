@@ -5,15 +5,15 @@
 
 Collection of useful type extensions
 
-## Installing UsefulTypeExtensions
+## Installing UTypeExtensions
 
 You should install [UsefulTypeExtensions with NuGet](https://www.nuget.org/packages/UTypeExtensions):
 
-    Install-Package UsefulTypeExtensions
+    Install-Package UTypeExtensions
     
 Or via the .NET Core command line interface:
 
-    dotnet add package UsefulTypeExtensions
+    dotnet add package UTypeExtensions
 
 
 ##### Common usage (Example):
